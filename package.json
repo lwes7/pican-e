@@ -1,0 +1,29 @@
+{
+  "name": "pican-e",
+  "version": "1.0.0",
+  "description": "Self Care Bot",
+  "main": "bot.js",
+  "author": "Lwes",
+  "engines": {
+  "node": "v10.15.3",
+  "npm": "6.4.1"
+},
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwes7/pican-e.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwes7/pican-e/issues"
+  },
+  "homepage": "https://github.com/lwes7/pican-e#readme"
+}
