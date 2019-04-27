@@ -417,4 +417,4 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
 	}	
 })
-}).listen(process.env.PORT || 5000);
+});
