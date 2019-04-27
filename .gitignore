@@ -1,6 +1,2 @@
-folder_to_ignore
+BotBuilder-Docker
 node_modules
-...
-# dist
-...
-BotBuilder-Docker/

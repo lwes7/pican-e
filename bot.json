@@ -1,3 +1,6 @@
+const port = process.env.PORT;
+console.log(`Your port is ${port}`);
+
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
