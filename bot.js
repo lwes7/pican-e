@@ -1,5 +1,5 @@
 const port = process.env.PORT;
-console.log(`Your port is ${port}`);
+console.log('Our app is running on http://localhost:' + 8080);
 
 var Discord = require('discord.io');
 var logger = require('winston');
