@@ -1,9 +1,8 @@
-require('newrelic');
-
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
 
+.listen(process.env.PORT || 5000)
 
 
 // Configure logger settings

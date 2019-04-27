@@ -29,5 +29,4 @@
   },
   "homepage": "https://github.com/lwes7/pican-e#readme",
   "keywords": []
-  "app.listen(5000,'0.0.0.0')"
 }
