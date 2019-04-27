@@ -2,11 +2,6 @@ var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, (0.0.0.0:5000) => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
-
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
