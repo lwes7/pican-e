@@ -3,7 +3,7 @@ var logger = require('winston');
 var auth = require('./auth.json');
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (0.0.0.0:5000) => {
     console.log(`Our app is running on port ${ PORT }`);
 });
 
