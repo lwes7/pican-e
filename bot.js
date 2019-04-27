@@ -1,7 +1,6 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var port = process.env.PORT
 
 // Configure logger settings
 logger.remove(logger.transports.Console);
@@ -418,4 +417,4 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
 	}	
 })
-});
+}).listen(process.env.PORT || 5000);
